@@ -184,7 +184,7 @@
                 update.classList.add("text-muted")
                 var months = ["jan", "feb", "mar", "may", "june", "july", "aug", "sep", "oct", "nov", "dec"]
                 var day = []
-                update.innerHTML = d.getDate() + " " + months[d.getMonth()] + " " + d.getHours() + ":" + d.getMinutes();
+                update.innerHTML = d.getDate() + " " + months[d.getMonth()-1] + " " + d.getHours() + ":" + d.getMinutes();
 
 
             });
